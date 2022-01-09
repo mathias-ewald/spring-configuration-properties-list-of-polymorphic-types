@@ -1,0 +1,11 @@
+
+demo:
+  selectors:
+  - type: LabelSelector
+    name: foo
+    value: bar
+  - type: CompositeSelector
+    selectors: 
+    - type: LabelSelector
+      name: foo
+      value: bar
